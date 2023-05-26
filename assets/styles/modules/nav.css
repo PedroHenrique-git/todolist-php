@@ -1,0 +1,25 @@
+.nav .nav__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 25px;
+
+  list-style: none;
+  padding: 10px;
+}
+
+.nav .nav__list .nav__list--item {
+  color: #000;
+  font-size: 1.8em;
+}
+
+nav .nav__list .nav__list--item:hover > a {
+  text-decoration: underline;
+}
+
+.nav .nav__list .nav__list--item a {
+  color: inherit;
+  font-size: inherit;
+  text-decoration: none;
+}
